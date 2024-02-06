@@ -52,15 +52,15 @@ def speech_to_text(input_path: str, output_path: str, language: str) -> None:
 
 if __name__ == '__main__':
     print('Please enter the path to an audio file (WAV, MP3, M4A, OGG, or FLAC):')
-    input_path = input().strip()
+    input_path = input("C:\\Users\\Shamshad ahmed\\audio.to.text\\speech-to-text\\IELTS-16-test-1-section-1.wav").strip()
     if not os.path.isfile(input_path):
         print('Error: File not found.')
         exit(1)
     else:
         print('Please enter the path to the output file:')
-        output_path = input().strip()
+        output_path = input("C:\\Users\\Shamshad ahmed\\audio.to.text\\speech-to-text").strip()
         print('Please enter the language code (e.g. en-US):')
-        language = input().strip()
+        language = input("english").strip()
         try:
             speech_to_text(input_path, output_path, language)
         except Exception as e:

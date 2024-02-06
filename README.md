@@ -52,4 +52,4 @@ Note that this is not an exhaustive list of supported languages. For a full list
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License].

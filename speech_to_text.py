@@ -58,7 +58,7 @@ if __name__ == '__main__':
         exit(1)
     else:
         print('Please enter the path to the output file:')
-        output_path = input("C:\\Users\\Shamshad ahmed\\audio.to.text\\speech-to-text").strip()
+        output_path = input("C:\\Users\\Shamshad ahmed\\audio.to.text\\speech-to-text\\output").strip()
         print('Please enter the language code (e.g. en-US):')
         language = input("english").strip()
         try:
